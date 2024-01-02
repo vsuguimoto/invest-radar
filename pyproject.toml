@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "invest-radar"
+version = "0.1.0"
+description = ""
+authors = ["vsuguimoto <vinisuguimoto@gmail.com>"]
+readme = "README.md"
+packages = [{include = "invest_radar"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.29.0"
+pandas = "^2.1.4"
+yfinance = "^0.2.33"
+scikit-learn = "^1.3.2"
+ipykernel = "^6.28.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
